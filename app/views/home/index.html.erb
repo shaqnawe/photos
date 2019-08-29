@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="">
-  <%= image_tag("gallery/logo.png", height: '30', width: '30', class: "d-inline-block align-top") %> SnS Photography
-</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <%= image_tag("pics/logo.png", height: '30', width: '30', class: "d-inline-block align-top") %> SnS Photography
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
+    </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -12,7 +12,7 @@
         <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/gallery/show">Gallery</a>
+        <a class="nav-link" href="/pics/show">pics</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="modal" data-target="#launchModal">Contact</a>
@@ -64,12 +64,14 @@
 		</div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn pull-right" data-dismiss="modal">Close</button>
+        <button type="button" class="btn pull-right" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
       </div>
     </div>
   </div>
 </div>
 <div>
-	<%= image_tag("gallery/front.jpg", class: "img-responsive", width: "100%", alt: "Responsive image") %>
+	<%= image_tag("pics/front.jpg", class: "img-fluid", width: "100%", alt: "Responsive image") %>
 </div>
 

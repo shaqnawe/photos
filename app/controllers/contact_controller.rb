@@ -1,4 +1,4 @@
 class ContactController < ApplicationController
-  def info
-  end
+	def info
+	end
 end
