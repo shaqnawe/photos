@@ -66,3 +66,13 @@ background: linear-gradient(to bottom, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, 
 p {
     font-family: 'Ubuntu', sans-serif;
 }
+
+html {
+    background: image-url('pics/front.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /*Preserve Aspect Ratio*/
+    min-width: 100%;
+    min-height: 100%;
+}
