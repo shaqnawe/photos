@@ -2,6 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html {
+    background: image-url('pics/front.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /*Preserve Aspect Ratio*/
+    min-width: 100%;
+    min-height: 100%;
+}
+
 a {
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -30,18 +40,17 @@ a {
 }
 
 .modal-body {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .modal-title {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .modal-footer {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Ubuntu', serif;
 }
 
 .material-icons { 
 	font-size: 14px;
 }
-

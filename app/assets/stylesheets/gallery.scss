@@ -9,9 +9,13 @@ background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, F
 }
 
 .carousel-item {
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 780px;
+  height: 100%;
   border: 1px solid;
   color: black;
+  /*Preserve Aspect Ratio*/
+  min-width: 100%;
+  min-height: 100%;
 }
